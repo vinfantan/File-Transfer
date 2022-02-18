@@ -1,9 +1,7 @@
 # File-Transfer
 It help to transfer small and large files between various devices which are connected on same (wifi or router)
 
-![Screenshot_2022-02-18-15-27-25-34](https://user-images.githubusercontent.com/60191225/154666502-d113b91b-0531-43f9-b75c-9da1384416a1.jpg)
-![Screenshot_2022-02-18-15-27-28-61](https://user-images.githubusercontent.com/60191225/154666513-303a89aa-c9f7-4589-9909-2aa828fe99ad.jpg)
-
+![Untitled](https://user-images.githubusercontent.com/60191225/154667085-42c181cb-8384-462d-8df0-dc8133da475c.jpg)
 
 
 step 1-
