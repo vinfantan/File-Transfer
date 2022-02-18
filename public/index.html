@@ -1,0 +1,72 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <!-- my font style-->
+    <title>Home page</title>
+    <script>
+      window.onload =clearInp();
+      function clearInp() {
+          document.getElementsByTagName("input").value = "";
+        }
+
+        if ( window.history.replaceState ) {
+  window.history.replaceState( null, null, window.location.href );
+}
+ function isfileselected(){
+   var n=document.getElementById("uploaded").value;
+   if(n == 0)
+   {
+    var d=document.getElementById("radio_warning");
+        d.innerHTML ='<div class="alert alert-danger result_status text-center" role="alert"> You have not selected any file </br> Select a file </div>';
+  
+    return false;
+ }else
+  return true;
+ }
+    </script>
+  </head>
+  
+  <body>
+
+    <div class="container-md border mt-3 text-center">
+      
+      <h1 class="text-center"> Upload Files on Server </h1>
+      
+      <div class="mt-3" id="radio_warning" style="max-width:400px;margin: auto;">
+        
+      </div>
+
+      <form class="mt-5 pt-4 pb-2 mb-3" onsubmit="return isfileselected()" method="POST" action="/" enctype="multipart/form-data">
+   
+       
+        <input type="file" name="file_name_attribute" id="uploaded" multiple>
+      
+        <button type="submit"  class="btn btn-info"> Upload </button>
+
+      </form>
+     
+    </div>
+
+    <div class="container-md border mt-2 text-center">
+     <a href="vivek.php" id="" > <button type="button" class="btn btn-success">SEE  AND  DOWNLOAD  UPLOADED  FILES</button></a>
+      </div>
+    
+    <div class="" id="district-list">
+
+    </div>
+
+
+
+
+    <script src="Bootstrap/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="Bootstrap/js/popper.min.js"></script>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

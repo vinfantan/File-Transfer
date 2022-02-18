@@ -1,0 +1,19 @@
+{
+  "name": "stark",
+  "version": "1.0.0",
+  "description": "this is server",
+  "main": "myapp.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "file-upload": "^0.0.0",
+    "local-ipv4-address": "0.0.2",
+    "sphp": "^0.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vivek",
+  "license": "ISC"
+}
